@@ -3,6 +3,7 @@
 This Python code provides a Streamlit web application that allows users to fetch and display weather data for a specified city. The application provides current weather information and information for future hours, including temperature, description, and an icon representing the weather conditions. It also offers a forecast for the next 7 hours, including temperature data, "feels like" temperature, wind speed, and humidity.
 
 
+
 ## Acknowledgements
 This code utilizes the OpenWeatherMap API to fetch weather data. You will need to sign up for an API key on the OpenWeatherMap website (https://openweathermap.org/) and replace the placeholders in the code with your API key.
 
