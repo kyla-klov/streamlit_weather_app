@@ -1,6 +1,7 @@
 # streamlit_weather_app
 
 This Python code provides a Streamlit web application that allows users to fetch and display weather data for a specified city. The application provides current weather information and information for future hours, including temperature, description, and an icon representing the weather conditions. It also offers a forecast for the next 7 hours, including temperature data, "feels like" temperature, wind speed, and humidity.
+![Capture](https://github.com/kyla-klov/streamlit_weather_app/assets/132112944/c21c4e08-c675-42ef-a833-17a2def38a36)
 
 
 
