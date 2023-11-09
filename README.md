@@ -1,6 +1,6 @@
 # streamlit_weather_app
 
-This Python code provides a Streamlit web application that allows users to fetch and display weather data for a specified city. The application provides current weather information and information for future hours, including temperature, description, and an icon representing the weather conditions. It also offers a forecast for the next 6 hours, including temperature data, "feels like" temperature, wind speed, and humidity.
+This Python code provides a Streamlit web application that allows users to fetch and display weather data for a specified city. The application provides current weather information and information for future hours, including temperature, description, and an icon representing the weather conditions. It also offers a forecast for the next 7 hours, including temperature data, "feels like" temperature, wind speed, and humidity.
 
 
 ## Acknowledgements
@@ -32,7 +32,7 @@ Required Python packages, which you can install using pip:
 
 ## Code Structure
  - get_weather(city, unit): Function to fetch current weather data using the OpenWeatherMap API. It returns information such as general weather conditions, temperature, description, weather icon URL, "feels like" temperature, wind speed, and humidity.
- - get_predictive_data(unit, lon, lat): Function to fetch future weather data for the specified location using the OpenWeatherMap API. It provides temperature data for the next 6 hours, "feels like" temperature, wind speed, and humidity.
+ - get_predictive_data(unit, lon, lat): Function to fetch future weather data for the specified location using the OpenWeatherMap API. It provides temperature data for the next 7 hours, "feels like" temperature, wind speed, and humidity.
  - handle_weather_search(city, unit): Main function for handling the weather data retrieval and display in the Streamlit app. It fetches current and predictive weather data and displays it, along with custom styles.
  - apply_custom_styles(): Function to apply custom CSS styles to the Streamlit app to control its appearance.
  - main(): The main function that sets up the Streamlit app, allowing users to input the city and temperature unit. It also calls the function to apply custom styles.
